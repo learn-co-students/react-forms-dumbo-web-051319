@@ -1,7 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Form from './ControlledInput';
 
-ReactDOM.render(
-  <div>Mount Components Here</div>,
-  document.getElementById('root')
-);
+ReactDOM.render(<Form />, document.getElementById('root'));
